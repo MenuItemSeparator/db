@@ -3052,7 +3052,7 @@ Body:
         StealProtected: true
   - Id: 1063
     AegisName: LUNATIC
-    Name: Lunatic
+    Name: Rabit
     Level: 3
     Hp: 48
     BaseExp: 150
