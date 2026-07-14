@@ -3086,8 +3086,8 @@ Body:
         Rate: 3000
       - Item: Pierrot_Nose
         Rate: 4
-      - Item: Sword_
-        Rate: 100
+      - Item: Sword
+        Rate: 7000
 #       RandomOptionGroup: 30L
       - Item: Wing_Of_Fly
         Rate: 500

@@ -136,7 +136,7 @@ Body:
       }
   - Id: 1101
     AegisName: Sword
-    Name: Sword
+    Name: Меч
     Type: Weapon
     SubType: 1hSword
     Buy: 100
@@ -93938,7 +93938,7 @@ Body:
       skill "ALL_THANATOS_RECALL",1;
   - Id: 19103
     AegisName: Kings_Crown
-    Name: Old King’s Crown
+    Name: Old KingвЂ™s Crown
     Type: Armor
     Weight: 500
     Defense: 20
@@ -183749,7 +183749,7 @@ Body:
       bonus2 bResEff,Eff_Blind,10000;
   - Id: 410308
     AegisName: C_Heine_Tab_1
-    Name: "Costume: Heine’s Tablet"
+    Name: "Costume: HeineвЂ™s Tablet"
     Type: Armor
     Locations:
       Costume_Head_Mid: true
@@ -183764,7 +183764,7 @@ Body:
       NoAuction: true
   - Id: 410309
     AegisName: C_Heine_Tab_2
-    Name: "Costume: Heine’s Tablet (Rose)"
+    Name: "Costume: HeineвЂ™s Tablet (Rose)"
     Type: Armor
     Locations:
       Costume_Head_Mid: true
@@ -183779,7 +183779,7 @@ Body:
       NoAuction: true
   - Id: 410310
     AegisName: C_Heine_Tab_3
-    Name: "Costume: Heine’s Tablet (Silver)"
+    Name: "Costume: HeineвЂ™s Tablet (Silver)"
     Type: Armor
     Locations:
       Costume_Head_Mid: true
@@ -262064,7 +262064,7 @@ Body:
       }
   - Id: 650058
     AegisName: Frontier_SS_Humma
-    Name: Frontier Moonlight Fūma Shuriken    # !todo check english name
+    Name: Frontier Moonlight FЕ«ma Shuriken    # !todo check english name
     Type: Weapon
     SubType: Huuma
     Weight: 3500
