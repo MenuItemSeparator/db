@@ -88,13 +88,30 @@ Header:
   Type: ITEM_DB
   Version: 3
 
-Footer:
-  Imports:
-  - Path: db/re/item_db_usable.yml
-#  - Path: db/re/item_db_equip.yml
-  - Path: db/re/item_db_etc.yml
-  - Path: db/DiabRO/item_db_equip.yml
-  - Path: db/DiabRO/DiabRO-WeaponATK.yml
-  - Path: db/DiabRO/DiabRO-WeaponMATK.yml
-  - Path: db/DiabRO/DiabRO-ArmorATK.yml
-  - Path: db/DiabRO/DiabRO-ArmorMATK.yml
+Body:
+  - Id: 1601
+    AegisName: Rod
+    Name: Rod
+    Type: Weapon
+    SubType: Staff
+    Buy: 50
+    Weight: 400
+    Attack: 15
+    MagicAttack: 30
+    Range: 1
+    Slots: 3
+    Jobs:
+      Acolyte: true
+      Mage: true
+      Monk: true
+      Novice: true
+      Priest: true
+      Sage: true
+      SoulLinker: true
+      SuperNovice: true
+      Wizard: true
+    Locations:
+      Right_Hand: true
+    WeaponLevel: 1
+    EquipLevelMin: 1
+    Refineable: true

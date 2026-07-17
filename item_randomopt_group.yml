@@ -47,6 +47,6 @@ Header:
 
 Footer:
   Imports:
-  - Path: db/re/item_randomopt_group.yml
-    Mode: Renewal
-  - Path: db/import/item_randomopt_group.yml
+#  - Path: db/re/item_randomopt_group.yml
+#    Mode: Renewal
+  - Path: db/DiabRO/item_randomopt_group.yml

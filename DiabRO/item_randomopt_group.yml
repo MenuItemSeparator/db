@@ -47,7 +47,7 @@ Header:
 
 Body:
   - Id: 173
-    Group: PMS_10 # Physical Melee Sword 10
+    Group: PMS_10
     Slots:
       - Slot: 1
         Options:
@@ -155,28 +155,28 @@ Body:
       - Slot: 1
         Options:
           - Option: VAR_STRAMOUNT
-            MinValue: 5
-            MaxValue: 5
+            MinValue: 10
+            MaxValue: 10
             Chance: 5000
           - Option: VAR_AGIAMOUNT
-            MinValue: 5
-            MaxValue: 5
+            MinValue: 10
+            MaxValue: 10
             Chance: 5000
           - Option: VAR_VITAMOUNT
-            MinValue: 5
-            MaxValue: 5
+            MinValue: 10
+            MaxValue: 10
             Chance: 5000
           - Option: VAR_INTAMOUNT
-            MinValue: 5
-            MaxValue: 5
+            MinValue: 10
+            MaxValue: 10
             Chance: 5000
           - Option: VAR_DEXAMOUNT
-            MinValue: 5
-            MaxValue: 5
+            MinValue: 10
+            MaxValue: 10
             Chance: 5000
           - Option: VAR_LUKAMOUNT
-            MinValue: 5
-            MaxValue: 5
+            MinValue: 10
+            MaxValue: 10
             Chance: 5000
     MaxRandom: 0 # These are listed but the group only has 1 slot max
     Random:

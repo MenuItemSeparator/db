@@ -88,13 +88,37 @@ Header:
   Type: ITEM_DB
   Version: 3
 
-Footer:
-  Imports:
-  - Path: db/re/item_db_usable.yml
-#  - Path: db/re/item_db_equip.yml
-  - Path: db/re/item_db_etc.yml
-  - Path: db/DiabRO/item_db_equip.yml
-  - Path: db/DiabRO/DiabRO-WeaponATK.yml
-  - Path: db/DiabRO/DiabRO-WeaponMATK.yml
-  - Path: db/DiabRO/DiabRO-ArmorATK.yml
-  - Path: db/DiabRO/DiabRO-ArmorMATK.yml
+Body:
+  - Id: 1101
+    AegisName: Sword
+    Name: Меч
+    Type: Weapon
+    SubType: 1hSword
+    Buy: 100
+    Weight: 500
+    Attack: 30
+    Range: 1
+    Slots: 3
+    Jobs:
+      Alchemist: true
+      Assassin: true
+      Blacksmith: true
+      Crusader: true
+      Knight: true
+      Merchant: true
+      Novice: true
+      Rogue: true
+      SuperNovice: true
+      Swordman: true
+      Thief: true
+    Locations:
+      Right_Hand: true
+    WeaponLevel: 1
+    EquipLevelMin: 2
+    Refineable: true
+    RandomOptGroup: Group_1
+    RandomOpt:
+      Group: Group_1
+      Min: 1
+      Max: 4
+      Chance: 100000

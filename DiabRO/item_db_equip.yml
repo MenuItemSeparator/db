@@ -134,33 +134,39 @@ Body:
             bonus2 bIgnoreDefRaceRate,RC_All,.@val;
          }
       }
-  - Id: 1101
-    AegisName: Sword
-    Name: Меч
-    Type: Weapon
-    SubType: 1hSword
-    Buy: 100
-    Weight: 500
-    Attack: 25
-    Range: 1
-    Slots: 3
-    Jobs:
-      Alchemist: true
-      Assassin: true
-      Blacksmith: true
-      Crusader: true
-      Knight: true
-      Merchant: true
-      Novice: true
-      Rogue: true
-      SuperNovice: true
-      Swordman: true
-      Thief: true
-    Locations:
-      Right_Hand: true
-    WeaponLevel: 1
-    EquipLevelMin: 2
-    Refineable: true
+#  - Id: 1101
+#    AegisName: Sword
+#    Name: Меч
+#    Type: Weapon
+#    SubType: 1hSword
+#    Buy: 100
+#    Weight: 500
+#    Attack: 30
+#    Range: 1
+#    Slots: 3
+#    Jobs:
+#      Alchemist: true
+#      Assassin: true
+#      Blacksmith: true
+#      Crusader: true
+#      Knight: true
+#      Merchant: true
+#      Novice: true
+#      Rogue: true
+#      SuperNovice: true
+#      Swordman: true
+#      Thief: true
+#    Locations:
+#      Right_Hand: true
+#    WeaponLevel: 1
+#    EquipLevelMin: 2
+#    Refineable: true
+#    RandomOptGroup: Group_1
+#    RandomOpt:
+#      Group: Group_1
+#      Min: 1
+#      Max: 4
+#      Chance: 100000
   - Id: 1102
     AegisName: Sword_
     Name: Sword
@@ -13006,32 +13012,32 @@ Body:
       bonus bMatk,pow(min(getrefine(),15),2);
       bonus bInt,5;
       bonus bUnbreakableWeapon;
-  - Id: 1601
-    AegisName: Rod
-    Name: Rod
-    Type: Weapon
-    SubType: Staff
-    Buy: 50
-    Weight: 400
-    Attack: 15
-    MagicAttack: 30
-    Range: 1
-    Slots: 3
-    Jobs:
-      Acolyte: true
-      Mage: true
-      Monk: true
-      Novice: true
-      Priest: true
-      Sage: true
-      SoulLinker: true
-      SuperNovice: true
-      Wizard: true
-    Locations:
-      Right_Hand: true
-    WeaponLevel: 1
-    EquipLevelMin: 1
-    Refineable: true
+#  - Id: 1601
+#    AegisName: Rod
+#    Name: Rod
+#    Type: Weapon
+#    SubType: Staff
+#    Buy: 50
+#    Weight: 400
+#    Attack: 15
+#    MagicAttack: 30
+#    Range: 1
+#    Slots: 3
+#    Jobs:
+#      Acolyte: true
+#      Mage: true
+#      Monk: true
+#      Novice: true
+#      Priest: true
+#      Sage: true
+#      SoulLinker: true
+#      SuperNovice: true
+#      Wizard: true
+#    Locations:
+#      Right_Hand: true
+#    WeaponLevel: 1
+#    EquipLevelMin: 1
+#    Refineable: true
   - Id: 1602
     AegisName: Rod_
     Name: Rod
@@ -22971,31 +22977,31 @@ Body:
          bonus bVariableCastrate,-10;
       if (.@r>=11)
          bonus2 bSkillCooldown,"WL_EARTHSTRAIN",-1000;
-  - Id: 2101
-    AegisName: Guard
-    Name: Guard
-    Type: Armor
-    Buy: 500
-    Weight: 300
-    Defense: 20
-    Locations:
-      Left_Hand: true
-    ArmorLevel: 1
-    Refineable: true
-    View: 1
-  - Id: 2102
-    AegisName: Guard_
-    Name: Guard
-    Type: Armor
-    Buy: 500
-    Weight: 300
-    Defense: 20
-    Slots: 1
-    Locations:
-      Left_Hand: true
-    ArmorLevel: 1
-    Refineable: true
-    View: 1
+#  - Id: 2101
+#    AegisName: Guard
+#    Name: Guard
+#    Type: Armor
+#    Buy: 500
+#    Weight: 300
+#    Defense: 20
+#    Locations:
+#      Left_Hand: true
+#    ArmorLevel: 1
+#    Refineable: true
+#    View: 1
+#  - Id: 2102
+#    AegisName: Guard_
+#    Name: Guard
+#    Type: Armor
+#    Buy: 500
+#    Weight: 300
+#    Defense: 20
+#    Slots: 1
+#    Locations:
+#      Left_Hand: true
+#    ArmorLevel: 1
+#    Refineable: true
+#    View: 1
   - Id: 2103
     AegisName: Buckler
     Name: Buckler

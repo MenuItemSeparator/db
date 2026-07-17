@@ -83,6 +83,117 @@ Header:
   Version: 5
 
 Body:
+#--------------------
+# -- DiabRO mob dm1 
+# -- Lunatic --------
+  - Id: 1063
+    AegisName: LUNATIC
+    Name: Заяц
+    Level: 3
+    Hp: 48
+    BaseExp: 150
+    JobExp: 50
+    Attack: 1
+    Attack2: 1
+    Defense: 18
+    Str: 10
+    Agi: 3
+    Vit: 3
+    Int: 0
+    Dex: 8
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Neutral
+    ElementLevel: 1
+    WalkSpeed: 400
+    AttackDelay: 1456
+    AttackMotion: 456
+    ClientAttackMotion: 264
+    DamageMotion: 336
+    Ai: 01
+    Drops:
+      - Item: Clover
+        Rate: 70
+      - Item: Feather
+        Rate: 30
+      - Item: Pierrot_Nose
+        Rate: 4
+      - Item: Sword
+        Rate: 7000
+        RandomOptionGroup: Group_1
+#       RandomOptionGroup: 30L
+      - Item: Wing_Of_Fly
+        Rate: 5
+      - Item: Carrot
+        Rate: 30
+      - Item: Rainbow_Carrot
+        Rate: 20
+      - Item: Lunatic_Card
+        Rate: 20
+        StealProtected: true
+#--------------------
+# -- DiabRO mob 2 dm2 
+# -- Fabre ----------
+  - Id: 1007
+    AegisName: FABRE
+    Name: Слизь
+    Level: 6
+    Hp: 59
+    BaseExp: 158
+    JobExp: 65
+    Attack: 1
+    Attack2: 3
+    Defense: 24
+    Str: 12
+    Agi: 5
+    Vit: 5
+    Int: 5
+    Dex: 12
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 400
+    AttackDelay: 1672
+    AttackMotion: 672
+    ClientAttackMotion: 192
+    DamageMotion: 480
+    Ai: 01
+    Modes:
+      Detector: false
+    Drops:
+      - Item: Guard
+        Rate: 7000
+        RandomOptionGroup: Group_1
+      - Item: Fluff
+        Rate: 70
+      - Item: Feather
+        Rate: 100
+      - Item: Club_
+        Rate: 80
+#       RandomOptionGroup: 30L
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Green_Herb
+        Rate: 3000
+      - Item: Clover
+        Rate: 1000
+      - Item: Club
+        Rate: 200
+#       RandomOptionGroup: 30L
+      - Item: Fabre_Card
+        Rate: 20
+        StealProtected: true        
+        
+
   - Id: 1001
     AegisName: SCORPION
     Name: Scorpion
@@ -320,57 +431,7 @@ Body:
 #      CastSensorChase: true
 #      CastSensorIdle: true
 #      ChangeChase: true
-  - Id: 1007
-    AegisName: FABRE
-    Name: Fabre
-    Level: 6
-    Hp: 59
-    BaseExp: 158
-    JobExp: 65
-    Attack: 1
-    Attack2: 3
-    Defense: 24
-    Str: 12
-    Agi: 5
-    Vit: 5
-    Int: 5
-    Dex: 12
-    Luk: 5
-    AttackRange: 1
-    SkillRange: 10
-    ChaseRange: 12
-    Size: Small
-    Race: Insect
-    Element: Earth
-    ElementLevel: 1
-    WalkSpeed: 400
-    AttackDelay: 1672
-    AttackMotion: 672
-    ClientAttackMotion: 192
-    DamageMotion: 480
-    Ai: 01
-    Modes:
-      Detector: true
-    Drops:
-      - Item: Fluff
-        Rate: 7000
-      - Item: Feather
-        Rate: 1000
-      - Item: Club_
-        Rate: 80
-#       RandomOptionGroup: 30L
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Green_Herb
-        Rate: 3000
-      - Item: Clover
-        Rate: 1000
-      - Item: Club
-        Rate: 200
-#       RandomOptionGroup: 30L
-      - Item: Fabre_Card
-        Rate: 20
-        StealProtected: true
+
   - Id: 1008
     AegisName: PUPA
     Name: Pupa
@@ -3049,54 +3110,6 @@ Body:
         Rate: 2000
       - Item: Santa's_Hat
         Rate: 100
-        StealProtected: true
-  - Id: 1063
-    AegisName: LUNATIC
-    Name: Rabit
-    Level: 3
-    Hp: 48
-    BaseExp: 150
-    JobExp: 50
-    Attack: 1
-    Attack2: 1
-    Defense: 18
-    Str: 10
-    Agi: 3
-    Vit: 3
-    Int: 0
-    Dex: 8
-    Luk: 5
-    AttackRange: 1
-    SkillRange: 10
-    ChaseRange: 12
-    Size: Small
-    Race: Brute
-    Element: Neutral
-    ElementLevel: 3
-    WalkSpeed: 200
-    AttackDelay: 1456
-    AttackMotion: 456
-    ClientAttackMotion: 264
-    DamageMotion: 336
-    Ai: 01
-    Drops:
-      - Item: Clover
-        Rate: 7000
-      - Item: Feather
-        Rate: 3000
-      - Item: Pierrot_Nose
-        Rate: 4
-      - Item: Sword
-        Rate: 7000
-#       RandomOptionGroup: 30L
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Carrot
-        Rate: 3000
-      - Item: Rainbow_Carrot
-        Rate: 20
-      - Item: Lunatic_Card
-        Rate: 20
         StealProtected: true
   - Id: 1064
     AegisName: MEGALODON
@@ -8989,7 +9002,7 @@ Body:
         StealProtected: true
   - Id: 1184
     AegisName: FABRE_
-    Name: Fabre
+    Name: РЎР»РёР·РµРЅСЊ
     Level: 1
     Hp: 30
     BaseExp: 1
@@ -9012,12 +9025,12 @@ Body:
     DamageMotion: 480
     Ai: 04
     Modes:
-      Detector: true
+      Detector: false
     Drops:
       - Item: Fluff
-        Rate: 1000
+        Rate: 100
       - Item: Feather
-        Rate: 125
+        Rate: 22
       - Item: Club_
         Rate: 40
 #       RandomOptionGroup: 30L
@@ -105446,7 +105459,7 @@ Body:
         StealProtected: true
   - Id: 20640
     AegisName: EP17_2_OMEGA_CLEANER
-    Name: Cleaning Robot Ω
+    Name: Cleaning Robot РћВ©
     Level: 130
     Hp: 182967
     BaseExp: 16633
@@ -105488,7 +105501,7 @@ Body:
         RandomOptionGroup: AUTO_IMP_MAGIC_2
   - Id: 20641
     AegisName: EP17_2_OMEGA_CLEANER_NG
-    Name: Broken Cleaning Robot Ω
+    Name: Broken Cleaning Robot РћВ©
     Level: 175
     Hp: 1200685
     BaseExp: 100057
