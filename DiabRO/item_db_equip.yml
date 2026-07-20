@@ -2585,42 +2585,7 @@ Body:
     WeaponLevel: 4
     EquipLevelMin: 120
     Refineable: true
-  - Id: 1201
-    AegisName: Knife
-    Name: Knife
-    Type: Weapon
-    SubType: Dagger
-    Buy: 50
-    Weight: 400
-    Attack: 17
-    Range: 1
-    Slots: 3
-    Jobs:
-      Alchemist: true
-      Archer: true
-      Assassin: true
-      BardDancer: true
-      Blacksmith: true
-      Crusader: true
-      Hunter: true
-      KagerouOboro: true
-      Knight: true
-      Mage: true
-      Merchant: true
-      Ninja: true
-      Novice: true
-      Rogue: true
-      Sage: true
-      SoulLinker: true
-      SuperNovice: true
-      Swordman: true
-      Thief: true
-      Wizard: true
-    Locations:
-      Right_Hand: true
-    WeaponLevel: 1
-    EquipLevelMin: 1
-    Refineable: true
+
   - Id: 1202
     AegisName: Knife_
     Name: Knife
@@ -8004,25 +7969,7 @@ Body:
     Refineable: true
     Script: |
       bonus bBaseAtk,pow(min(getrefine(),15),2);
-  - Id: 1401
-    AegisName: Javelin
-    Name: Javelin
-    Type: Weapon
-    SubType: 1hSpear
-    Buy: 150
-    Weight: 700
-    Attack: 28
-    Range: 3
-    Slots: 3
-    Jobs:
-      Crusader: true
-      Knight: true
-      Swordman: true
-    Locations:
-      Right_Hand: true
-    WeaponLevel: 1
-    EquipLevelMin: 4
-    Refineable: true
+
   - Id: 1402
     AegisName: Javelin_
     Name: Javelin

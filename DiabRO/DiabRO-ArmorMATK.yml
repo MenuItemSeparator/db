@@ -96,7 +96,7 @@ Body:
     Buy: 500
     Weight: 300
     Defense: 20
-    Slots: 1
+    Slots: 0
     Locations:
       Left_Hand: true
     ArmorLevel: 1

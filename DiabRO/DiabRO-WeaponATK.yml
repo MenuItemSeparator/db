@@ -89,6 +89,7 @@ Header:
   Version: 3
 
 Body:
+# Sword
   - Id: 1101
     AegisName: Sword
     Name: Меч
@@ -98,7 +99,7 @@ Body:
     Weight: 500
     Attack: 30
     Range: 1
-    Slots: 3
+    Slots: 0
     Jobs:
       Alchemist: true
       Assassin: true
@@ -122,3 +123,60 @@ Body:
       Min: 1
       Max: 4
       Chance: 100000
+#Knife
+  - Id: 1201
+    AegisName: Knife
+    Name: Knife
+    Type: Weapon
+    SubType: Dagger
+    Buy: 50
+    Weight: 400
+    Attack: 15
+    Range: 1
+    Slots: 0
+    Jobs:
+      Alchemist: true
+      Archer: true
+      Assassin: true
+      BardDancer: true
+      Blacksmith: true
+      Crusader: true
+      Hunter: true
+      KagerouOboro: true
+      Knight: true
+      Mage: true
+      Merchant: true
+      Ninja: true
+      Novice: true
+      Rogue: true
+      Sage: true
+      SoulLinker: true
+      SuperNovice: true
+      Swordman: true
+      Thief: true
+      Wizard: true
+    Locations:
+      Right_Hand: true
+    WeaponLevel: 1
+    EquipLevelMin: 1
+    Refineable: true
+# Javelin
+  - Id: 1401
+    AegisName: Javelin
+    Name: Javelin
+    Type: Weapon
+    SubType: 1hSpear
+    Buy: 150
+    Weight: 700
+    Attack: 28
+    Range: 2
+    Slots: 0
+    Jobs:
+      Crusader: true
+      Knight: true
+      Swordman: true
+    Locations:
+      Right_Hand: true
+    WeaponLevel: 1
+    EquipLevelMin: 4
+    Refineable: true

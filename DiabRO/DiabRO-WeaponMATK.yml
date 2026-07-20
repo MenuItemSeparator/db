@@ -96,10 +96,10 @@ Body:
     SubType: Staff
     Buy: 50
     Weight: 400
-    Attack: 15
+    Attack: 5
     MagicAttack: 30
-    Range: 1
-    Slots: 3
+    Range: 4
+    Slots: 0
     Jobs:
       Acolyte: true
       Mage: true

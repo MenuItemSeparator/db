@@ -1,0 +1,165 @@
+
+Header:
+  Type: MOB_DB
+  Version: 5
+
+Body:
+# Lunatic
+  - Id: 1063
+    AegisName: LUNATIC
+    Name: Rabbit
+    Level: 3
+    Hp: 60
+    BaseExp: 150
+    JobExp: 50
+    Attack: 1
+    Attack2: 1
+    Defense: 18
+    Str: 3
+    Agi: 10
+    Vit: 3
+    Int: 5
+    Dex: 8
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Neutral
+    ElementLevel: 1
+    WalkSpeed: 600
+    AttackDelay: 1456
+    AttackMotion: 456
+    ClientAttackMotion: 264
+    DamageMotion: 336
+    Ai: 01
+    Drops:
+      - Item: Clover
+        Rate: 70
+      - Item: Feather
+        Rate: 30
+      - Item: Pierrot_Nose
+        Rate: 4
+      - Item: Sword
+        Rate: 70
+        RandomOptionGroup: Group_1
+      - Item: Knife
+        Rate: 70
+        RandomOptionGroup: Group_1
+#       RandomOptionGroup: 30L
+      - Item: Wing_Of_Fly
+        Rate: 5
+      - Item: Carrot
+        Rate: 30
+      - Item: Rainbow_Carrot
+        Rate: 20
+      - Item: Lunatic_Card
+        Rate: 20
+        StealProtected: true
+        
+#Fabre
+  - Id: 1007
+    AegisName: FABRE
+    Name: Slime
+    Level: 6
+    Hp: 100
+    BaseExp: 158
+    JobExp: 65
+    Attack: 1
+    Attack2: 3
+    Defense: 24
+    Str: 12
+    Agi: 5
+    Vit: 20
+    Int: 5
+    Dex: 12
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 400
+    AttackDelay: 1672
+    AttackMotion: 672
+    ClientAttackMotion: 192
+    DamageMotion: 480
+    Ai: 01
+    Modes:
+      Detector: false
+    Drops:
+      - Item: Guard
+        Rate: 70
+        RandomOptionGroup: Group_1
+      - Item: Javelin
+        Rate: 70
+        RandomOptionGroup: Group_1
+      - Item: Fluff
+        Rate: 70
+      - Item: Feather
+        Rate: 100
+      - Item: Wing_Of_Fly
+        Rate: 5
+      - Item: Green_Herb
+        Rate: 30
+      - Item: Clover
+        Rate: 10
+#       RandomOptionGroup: 30L
+      - Item: Fabre_Card
+        Rate: 20
+        StealProtected: true
+
+#Pupa
+  - Id: 1008
+    AegisName: PUPA
+    Name: Pupa
+    Level: 4
+    Hp: 200
+    BaseExp: 157
+    JobExp: 55
+    Attack: 1
+    Attack2: 3
+    Defense: 200
+    MagicDefense: 10
+    Str: 11
+    Vit: 30
+    Int: 3
+    Dex: 8
+    Luk: 30
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 1000
+    AttackDelay: 1001
+    AttackMotion: 1
+    ClientAttackMotion: 768
+    DamageMotion: 1
+    Ai: 06
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Phracon
+        Rate: 60
+      - Item: Chrysalis
+        Rate: 70
+      - Item: Sticky_Mucus
+        Rate: 70
+      - Item: Rod
+        Rate: 200
+        RandomOptionGroup: Group_1
+      - Item: Shell
+        Rate: 10
+      - Item: Wing_Of_Fly
+        Rate: 5
+      - Item: Iron_Ore
+        Rate: 5
+      - Item: Pupa_Card
+        Rate: 10
+        StealProtected: true
