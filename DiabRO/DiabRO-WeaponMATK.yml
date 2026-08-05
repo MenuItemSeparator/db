@@ -94,7 +94,7 @@ Body:
     Name: Rod
     Type: Weapon
     SubType: Staff
-    Buy: 50
+    Buy: 100
     Weight: 400
     Attack: 5
     MagicAttack: 30
@@ -115,3 +115,6 @@ Body:
     WeaponLevel: 1
     EquipLevelMin: 1
     Refineable: true
+    Script: |
+      skill "MG_FIREBOLT",3;
+      bonus3 bAutoSpellWhenHit,"MG_FIREBOLT",2,5000;

@@ -91,10 +91,10 @@ Header:
 Body:
   - Id: 2102
     AegisName: Guard_
-    Name: Guard
+    Name: Mage Guard
     Type: Armor
     Buy: 500
-    Weight: 300
+    Weight: 100
     Defense: 20
     Slots: 0
     Locations:
@@ -102,3 +102,38 @@ Body:
     ArmorLevel: 1
     Refineable: true
     View: 1
+    Script: |
+      bonus bMaxHP,100;
+      bonus bInt,5;
+    
+  - Id: 2321
+    AegisName: Silk_Robe
+    Name: Silk Robe
+    Type: Armor
+    Buy: 8000
+    Weight: 100
+    Defense: 20
+    Locations:
+      Armor: true
+    ArmorLevel: 1
+    Refineable: true
+    Script: |
+      bonus bMdef,10;
+      bonus bMaxHP,50;
+      bonus bInt,5;
+      
+  - Id: 2406
+    AegisName: Boots_
+    Name: Boots
+    Type: Armor
+    Buy: 18000
+    Weight: 600
+    Defense: 16
+    Slots: 1
+    Locations:
+      Shoes: true
+    ArmorLevel: 1
+    Refineable: true
+    Script: |
+      bonus bMaxHP,100;
+      bonus bInt,5;

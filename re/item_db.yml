@@ -98,3 +98,4 @@ Footer:
   - Path: db/DiabRO/DiabRO-WeaponMATK.yml
   - Path: db/DiabRO/DiabRO-ArmorATK.yml
   - Path: db/DiabRO/DiabRO-ArmorMATK.yml
+  - Path: db/DiabRO/DiabRO-Accessory.yml

@@ -94,10 +94,43 @@ Body:
     Name: Guard
     Type: Armor
     Buy: 500
-    Weight: 300
+    Weight: 100
     Defense: 20
     Locations:
       Left_Hand: true
     ArmorLevel: 1
     Refineable: true
     View: 1
+    Script: |
+      bonus bMaxHP,200;
+      bonus bStr,5;
+      
+  - Id: 2301
+    AegisName: Cotton_Shirt
+    Name: Cotton Shirt
+    Type: Armor
+    Buy: 100
+    Weight: 100
+    Defense: 10
+    Locations:
+      Armor: true
+    ArmorLevel: 1
+    Refineable: true
+    Script: |
+      bonus bMaxHP,100;
+      bonus bStr,5;
+      
+  - Id: 2405
+    AegisName: Boots
+    Name: Boots
+    Type: Armor
+    Buy: 500
+    Weight: 20
+    Defense: 16
+    Locations:
+      Shoes: true
+    ArmorLevel: 1
+    Refineable: true
+    Script: |
+      bonus bMaxHP,100;
+      bonus bStr,5;

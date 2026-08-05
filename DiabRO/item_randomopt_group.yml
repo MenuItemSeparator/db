@@ -44,111 +44,300 @@
 Header:
   Type: RANDOM_OPTION_GROUP
   Version: 1
-
+  
 Body:
-  - Id: 173
-    Group: PMS_10
+  - Id: 179
+    Group: STAT_10
     Slots:
       - Slot: 1
         Options:
-          - Option: VAR_STRAMOUNT
+          - Option: VAR_MAXHPAMOUNT
             MinValue: 1
-            MaxValue: 5
-            Chance: 5000
-          - Option: VAR_AGIAMOUNT
+            MaxValue: 10
+            Chance: 2000
+          - Option: VAR_MAXSPAMOUNT
             MinValue: 1
-            MaxValue: 5
-            Chance: 5000
-          - Option: VAR_VITAMOUNT
+            MaxValue: 10
+            Chance: 2000
+            
+  - Id: 178
+    Group: MISK_10
+    Slots:
+      - Slot: 1
+        Options:
+          - Option: VAR_MAXHPAMOUNT
             MinValue: 1
-            MaxValue: 5
-            Chance: 5000
-          - Option: VAR_INTAMOUNT
+            MaxValue: 10
+            Chance: 2000
+          - Option: VAR_MAXSPAMOUNT
             MinValue: 1
-            MaxValue: 5
-            Chance: 5000
-          - Option: VAR_DEXAMOUNT
+            MaxValue: 10
+            Chance: 2000
+            
+  - Id: 177
+    Group: DEF_10
+    Slots:
+      - Slot: 1
+        Options:
+          - Option: VAR_MAXHPAMOUNT
             MinValue: 1
-            MaxValue: 5
-            Chance: 5000
-          - Option: VAR_LUKAMOUNT
+            MaxValue: 50
+            Chance: 2000
+          - Option: VAR_MAXSPAMOUNT
             MinValue: 1
-            MaxValue: 5
-            Chance: 5000
-    MaxRandom: 0 # These are listed but the group only has 1 slot max
+            MaxValue: 10
+            Chance: 2000
+    MaxRandom: 3 # These are listed but the group only has 1 slot max
     Random:
-      - Option: VAR_MAXHPAMOUNT
-        MinValue: 50
-        MaxValue: 100
-        Chance: 5000
-      - Option: VAR_MAXSPAMOUNT
-        MinValue: 10
-        MaxValue: 50
-        Chance: 5000
-      - Option: VAR_MAXHPPERCENT
-        MinValue: 1
-        MaxValue: 5
-        Chance: 5000
-      - Option: VAR_MAXSPPERCENT
-        MinValue: 1
-        MaxValue: 5
-        Chance: 5000
-      - Option: VAR_HPACCELERATION
-        MinValue: 10
-        MaxValue: 50
-        Chance: 5000
-      - Option: VAR_SPACCELERATION
-        MinValue: 10
-        MaxValue: 50
-        Chance: 5000
-      - Option: VAR_ATKPERCENT
-        MinValue: 5
-        MaxValue: 10
-        Chance: 5000
-      - Option: VAR_MAGICATKPERCENT
-        MinValue: 5
-        MaxValue: 10
-        Chance: 5000
-      - Option: VAR_PLUSASPD
-        MinValue: 1
-        MaxValue: 2
-        Chance: 5000
-      - Option: VAR_PLUSASPDPERCENT
-        MinValue: 5
-        MaxValue: 10
-        Chance: 5000
-      - Option: VAR_ATTPOWER
-        MinValue: 10
-        MaxValue: 30
-        Chance: 5000
-      - Option: VAR_HITSUCCESSVALUE
-        MinValue: 10
-        MaxValue: 30
-        Chance: 5000
-      - Option: VAR_ATTMPOWER
-        MinValue: 10
-        MaxValue: 30
-        Chance: 5000
       - Option: VAR_ITEMDEFPOWER
-        MinValue: 10
-        MaxValue: 30
-        Chance: 5000
-      - Option: VAR_MDEFPOWER
-        MinValue: 10
-        MaxValue: 30
-        Chance: 5000
-      - Option: VAR_AVOIDSUCCESSVALUE
-        MinValue: 10
-        MaxValue: 30
-        Chance: 5000
-      - Option: VAR_PLUSAVOIDSUCCESSVALUE
-        MinValue: 10
-        MaxValue: 30
-        Chance: 5000
-      - Option: VAR_CRITICALSUCCESSVALUE
-        MinValue: 10
-        MaxValue: 30
-        Chance: 5000
+        MinValue: 1
+        MaxValue: 10
+        Chance: 10000
+      - Option: RACE_TOLERACE_UNDEAD
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_PLANT
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_NOTHING
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_INSECT
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_HUMAN
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_FISHS
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_DRAGON
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_DEVIL
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_ANIMAL
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_ANGEL
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+
+  - Id: 176
+    Group: MDEF_10
+    Slots:
+        - Slot: 1
+          Options:
+            - Option: VAR_MAXHPAMOUNT
+              MinValue: 1
+              MaxValue: 50
+              Chance: 2000
+            - Option: VAR_MAXSPAMOUNT
+              MinValue: 1
+              MaxValue: 10
+              Chance: 2000
+    MaxRandom: 3 # These are listed but the group only has 1 slot max
+    Random:
+      - Option: VAR_ITEMDEFPOWER
+        MinValue: 1
+        MaxValue: 10
+        Chance: 10000
+      - Option: RACE_TOLERACE_UNDEAD
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_PLANT
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_NOTHING
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_INSECT
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_HUMAN
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_FISHS
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_DRAGON
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_DEVIL
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_ANIMAL
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+      - Option: RACE_TOLERACE_ANGEL
+        MinValue: 2
+        MaxValue: 10
+        Chance: 2000
+
+
+# Magical weapon lvl 10
+  - Id: 175
+    Group: MATK_10
+    Slots:
+      - Slot: 1
+        Options:
+          - Option: VAR_ATTMPOWER
+            MinValue: 10
+            MaxValue: 30
+            Chance: 5000
+    MaxRandom: 3 # These are listed but the group only has 1 slot max
+    Random:
+      - Option: CLASS_MDAMAGE_BOSS
+        MinValue: 1
+        MaxValue: 10
+        Chance: 150
+      - Option: CLASS_MDAMAGE_NORMAL
+        MinValue: 1
+        MaxValue: 10
+        Chance: 150
+      - Option: RACE_MDAMAGE_ANGEL
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: DEC_SPELL_CAST_TIME
+        MinValue: 3
+        MaxValue: 10
+        Chance: 500
+      - Option: RACE_MDAMAGE_ANGEL
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: RACE_MDAMAGE_ANIMAL
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: RACE_MDAMAGE_DEVIL
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: RACE_MDAMAGE_DRAGON
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: RACE_MDAMAGE_FISHS
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: RACE_MDAMAGE_HUMAN
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: RACE_MDAMAGE_INSECT
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: RACE_MDAMAGE_NOTHING
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: RACE_MDAMAGE_PLANT
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: RACE_MDAMAGE_UNDEAD
+        MinValue: 3
+        MaxValue: 20
+        Chance: 900
+      - Option: VAR_MAGICATKPERCENT
+        MinValue: 1
+        MaxValue: 5
+        Chance: 200
+# Physical weapon lvl 10 
+  - Id: 174
+    Group: ATK_10
+    Slots:
+      - Slot: 1
+        Options:
+          - Option: VAR_ATTPOWER
+            MinValue: 10
+            MaxValue: 30
+            Chance: 5000
+    MaxRandom: 3 # These are listed but the group only has 1 slot max
+    Random:
+          - Option: CLASS_DAMAGE_BOSS_TARGET
+            MinValue: 1
+            MaxValue: 20
+            Chance: 100
+          - Option: CLASS_DAMAGE_NORMAL_TARGET
+            MinValue: 1
+            MaxValue: 10
+            Chance: 100
+          - Option: DAMAGE_CRI_TARGET
+            MinValue: 1
+            MaxValue: 10
+            Chance: 600
+          - Option: RACE_DAMAGE_ANGEL
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: RACE_DAMAGE_ANIMAL
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: RACE_DAMAGE_DEVIL
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: RACE_DAMAGE_DRAGON
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: RACE_DAMAGE_FISHS
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: RACE_DAMAGE_HUMAN
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: RACE_DAMAGE_INSECT
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: RACE_DAMAGE_NOTHING
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: RACE_DAMAGE_PLANT
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: RACE_DAMAGE_UNDEAD
+            MinValue: 3
+            MaxValue: 20
+            Chance: 900
+          - Option: VAR_ATKPERCENT
+            MinValue: 1
+            MaxValue: 5
+            Chance: 100
+          - Option: WEAPON_INDESTRUCTIBLE
+            Chance: 100
+# Clasic
   - Id: 1
     Group: Group_1
     Slots:

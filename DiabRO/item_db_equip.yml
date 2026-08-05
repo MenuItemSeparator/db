@@ -10356,86 +10356,7 @@ Body:
       }
       bonus2 bAddRace2,RC2_BioLab,.@b;
       bonus2 bSubRace2,RC2_BioLab,.@c;
-  - Id: 1501
-    AegisName: Club
-    Name: Club
-    Type: Weapon
-    SubType: Mace
-    Buy: 120
-    Weight: 700
-    Attack: 23
-    Range: 1
-    Slots: 3
-    Jobs:
-      Acolyte: true
-      Alchemist: true
-      Blacksmith: true
-      Crusader: true
-      Knight: true
-      Merchant: true
-      Monk: true
-      Novice: true
-      Priest: true
-      SuperNovice: true
-      Swordman: true
-    Locations:
-      Right_Hand: true
-    WeaponLevel: 1
-    EquipLevelMin: 2
-    Refineable: true
-  - Id: 1502
-    AegisName: Club_
-    Name: Club
-    Type: Weapon
-    SubType: Mace
-    Buy: 120
-    Weight: 700
-    Attack: 23
-    Range: 1
-    Slots: 4
-    Jobs:
-      Acolyte: true
-      Alchemist: true
-      Blacksmith: true
-      Crusader: true
-      Knight: true
-      Merchant: true
-      Monk: true
-      Novice: true
-      Priest: true
-      SuperNovice: true
-      Swordman: true
-    Locations:
-      Right_Hand: true
-    WeaponLevel: 1
-    EquipLevelMin: 2
-    Refineable: true
-  - Id: 1503
-    AegisName: Club__
-    Name: Club
-    Type: Weapon
-    SubType: Mace
-    Buy: 120
-    Weight: 700
-    Attack: 23
-    Range: 1
-    Jobs:
-      Acolyte: true
-      Alchemist: true
-      Blacksmith: true
-      Crusader: true
-      Knight: true
-      Merchant: true
-      Monk: true
-      Novice: true
-      Priest: true
-      SuperNovice: true
-      Swordman: true
-    Locations:
-      Right_Hand: true
-    WeaponLevel: 1
-    EquipLevelMin: 2
-    Refineable: true
+
   - Id: 1504
     AegisName: Mace
     Name: Mace
@@ -26640,17 +26561,7 @@ Body:
     ArmorLevel: 1
     Refineable: true
     View: 86
-  - Id: 2301
-    AegisName: Cotton_Shirt
-    Name: Cotton Shirt
-    Type: Armor
-    Buy: 10
-    Weight: 100
-    Defense: 10
-    Locations:
-      Armor: true
-    ArmorLevel: 1
-    Refineable: true
+
   - Id: 2302
     AegisName: Cotton_Shirt_
     Name: Cotton Shirt
@@ -26963,33 +26874,7 @@ Body:
       Armor: true
     ArmorLevel: 1
     Refineable: true
-  - Id: 2321
-    AegisName: Silk_Robe
-    Name: Silk Robe
-    Type: Armor
-    Buy: 8000
-    Weight: 400
-    Defense: 20
-    Jobs:
-      Acolyte: true
-      Alchemist: true
-      Blacksmith: true
-      Crusader: true
-      Knight: true
-      Mage: true
-      Merchant: true
-      Monk: true
-      Priest: true
-      Sage: true
-      SoulLinker: true
-      Swordman: true
-      Wizard: true
-    Locations:
-      Armor: true
-    ArmorLevel: 1
-    Refineable: true
-    Script: |
-      bonus bMdef,10;
+
   - Id: 2322
     AegisName: Silk_Robe_
     Name: Silk Robe
@@ -28869,63 +28754,8 @@ Body:
       Shoes: true
     ArmorLevel: 1
     Refineable: true
-  - Id: 2405
-    AegisName: Boots
-    Name: Boots
-    Type: Armor
-    Buy: 18000
-    Weight: 600
-    Defense: 16
-    Jobs:
-      Alchemist: true
-      Archer: true
-      Assassin: true
-      BardDancer: true
-      Blacksmith: true
-      Crusader: true
-      Gunslinger: true
-      Hunter: true
-      Knight: true
-      Merchant: true
-      Rebellion: true
-      Rogue: true
-      StarGladiator: true
-      Swordman: true
-      Taekwon: true
-      Thief: true
-    Locations:
-      Shoes: true
-    ArmorLevel: 1
-    Refineable: true
-  - Id: 2406
-    AegisName: Boots_
-    Name: Boots
-    Type: Armor
-    Buy: 18000
-    Weight: 600
-    Defense: 16
-    Slots: 1
-    Jobs:
-      Alchemist: true
-      Archer: true
-      Assassin: true
-      BardDancer: true
-      Blacksmith: true
-      Crusader: true
-      Gunslinger: true
-      Hunter: true
-      Knight: true
-      Merchant: true
-      Rebellion: true
-      Rogue: true
-      StarGladiator: true
-      Swordman: true
-      Taekwon: true
-      Thief: true
-    Locations:
-      Shoes: true
-    ArmorLevel: 1
-    Refineable: true
+
+
   - Id: 2407
     AegisName: Chrystal_Pumps
     Name: Crystal Pumps
@@ -33282,86 +33112,11 @@ Body:
       bonus bLongAtkDef,10;
       bonus bMdef,2;
       bonus bVit,1;
-  - Id: 2601
-    AegisName: Ring
-    Name: Ring
-    Type: Armor
-    Buy: 30000
-    Weight: 100
-    Jobs:
-      All: true
-      Novice: false
-      SuperNovice: false
-    Locations:
-      Both_Accessory: true
-    ArmorLevel: 1
-    EquipLevelMin: 20
-    Script: |
-      bonus bStr,2;
-  - Id: 2602
-    AegisName: Earring
-    Name: Earring
-    Type: Armor
-    Buy: 30000
-    Weight: 100
-    Jobs:
-      All: true
-      Novice: false
-      SuperNovice: false
-    Locations:
-      Both_Accessory: true
-    ArmorLevel: 1
-    EquipLevelMin: 20
-    Script: |
-      bonus bInt,2;
-  - Id: 2603
-    AegisName: Necklace
-    Name: Necklace
-    Type: Armor
-    Buy: 30000
-    Weight: 100
-    Jobs:
-      All: true
-      Novice: false
-      SuperNovice: false
-    Locations:
-      Both_Accessory: true
-    ArmorLevel: 1
-    EquipLevelMin: 20
-    Script: |
-      bonus bVit,2;
-  - Id: 2604
-    AegisName: Glove
-    Name: Glove
-    Type: Armor
-    Buy: 30000
-    Weight: 100
-    Jobs:
-      All: true
-      Novice: false
-      SuperNovice: false
-    Locations:
-      Both_Accessory: true
-    ArmorLevel: 1
-    EquipLevelMin: 20
-    Script: |
-      bonus bDex,2;
-  - Id: 2605
-    AegisName: Brooch
-    Name: Brooch
-    Type: Armor
-    Buy: 30000
-    Weight: 100
-    Jobs:
-      All: true
-      Novice: false
-      SuperNovice: false
-    Locations:
-      Both_Accessory: true
-    ArmorLevel: 1
-    EquipLevelMin: 20
-    Script: |
-      bonus bAgi,2;
+
+
+
+
+
   - Id: 2606
     AegisName: Whike_Black_Tail_L
     Name: Rental Black Tail of Hyukke
@@ -33373,35 +33128,8 @@ Body:
     Script: |
       bonus bCritical,7;
       bonus bAspdRate,3;
-  - Id: 2607
-    AegisName: Clip
-    Name: Clip
-    Type: Armor
-    Buy: 30000
-    Weight: 100
-    Slots: 1
-    Locations:
-      Both_Accessory: true
-    ArmorLevel: 1
-    Script: |
-      bonus bMaxSP,10;
-  - Id: 2608
-    AegisName: Rosary
-    Name: Rosary
-    Type: Armor
-    Buy: 15000
-    Weight: 100
-    Jobs:
-      All: true
-      Novice: false
-      SuperNovice: false
-    Locations:
-      Both_Accessory: true
-    ArmorLevel: 1
-    EquipLevelMin: 20
-    Script: |
-      bonus bMdef,5;
-      bonus bLuk,2;
+
+
   - Id: 2609
     AegisName: Skul_Ring
     Name: Skull Ring

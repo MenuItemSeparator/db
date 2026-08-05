@@ -89,5 +89,7 @@ Footer:
 #  - Path: db/re/mob_db.yml
 #    Mode: Renewal
 #  - Path: db/import/mob_db.yml
- - Path: db/DiabRO/mob_db.yml
- - Path: db/DiabRO/DiabRO-Monster.yml
+  - Path: db/DiabRO/Monster/mob_db.yml
+    Mode: Renewal
+  - Path: db/DiabRO/Monster/DiabRO-Monster.yml
+    Mode: Renewal
