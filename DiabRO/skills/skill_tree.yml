@@ -305,8 +305,8 @@ Body:
         MaxLevel: 1
       - Name: TF_THROWSTONE
         MaxLevel: 1
-      - Name: SA_ABRACADABRA
-        MaxLevel: 10
+#      - Name: SA_ABRACADABRA
+#        MaxLevel: 10
   - Job: Knight
     Inherit:
       Novice: true
@@ -1126,13 +1126,6 @@ Body:
             Level: 3
       - Name: SA_ABRACADABRA
         MaxLevel: 10
-        Requires:
-          - Name: SA_AUTOSPELL
-            Level: 5
-          - Name: SA_DISPELL
-            Level: 1
-          - Name: SA_LANDPROTECTOR
-            Level: 1
       - Name: SA_CREATECON
         MaxLevel: 1
       - Name: SA_ELEMENTWATER
