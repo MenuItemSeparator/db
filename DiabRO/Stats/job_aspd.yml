@@ -1,0 +1,292 @@
+# This file is a part of rAthena.
+#   Copyright(C) 2021 rAthena Development Team
+#   https://rathena.org - https://github.com/rathena
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+###########################################################################
+# Job Database
+###########################################################################
+#
+# Job Settings
+#
+###########################################################################
+# - Jobs:                    List of jobs associated to group.
+#     Job                    Job name.
+#   MaxWeight                Base maximum weight. (Default: 20000)
+#   HpFactor                 Exponential HP increase. Per base level: [HpFactor * BaseLv / 100]. Used when macro HP_SP_TABLES is disabled. (Default: 0)
+#   HpIncrease               Linear HP increase. Per base level: [HpIncrease / 100]. Used when macro HP_SP_TABLES is disabled. (Default: 500)
+#   SpFactor                 Exponential SP increase. Per base level: [SpFactor * BaseLv / 100]. Used when macro HP_SP_TABLES is disabled. (Default: 0)
+#   SpIncrease               Linear SP increase. Per base level: [SpIncrease / 100]. Used when macro HP_SP_TABLES is disabled. (Default: 100)
+#   ApFactor                 Exponential AP increase. Per base level: [ApFactor * BaseLv / 100]. Used when macro HP_SP_TABLES is disabled. (Default: 0)
+#   ApIncrease               Linear AP increase. Per base level: [ApIncrease / 100]. Used when macro HP_SP_TABLES is disabled. (Default: 0)
+#   BaseASPD:                Base ASPD for each weapon type. (Default: 2000)
+#     Weapon                 Weapon type with associated ASPD.
+#   BonusStats:              Job level bonus stats/traits.
+#     - Level                Job level.
+#       Str                  Stength increase amount. (Default: 0)
+#       Agi                  Agility increase amount. (Default: 0)
+#       Vit                  Vitality increase amount. (Default: 0)
+#       Int                  Intelligence increase amount. (Default: 0)
+#       Dex                  Dexterity increase amount. (Default: 0)
+#       Luk                  Luck increase amount. (Default: 0)
+#       Pow                  Power increase amount. (Default: 0)
+#       Sta                  Stamina increase amount. (Default: 0)
+#       Wis                  Wisdom increase amount. (Default: 0)
+#       Spl                  Spell increase amount. (Default: 0)
+#       Con                  Concentration increase amount. (Default: 0)
+#       Crt                  Creative increase amount. (Default: 0)
+#   MaxStats:                Maximum stats/traits applicable. (Default: battle_config::max_*_parameter)
+#     Str                    Strength.
+#     Agi                    Agility.
+#     Vit                    Vitality.
+#     Int                    Intelligence.
+#     Dex                    Dexterity.
+#     Luk                    Luck.
+#     Pow                    Power.
+#     Sta                    Stamina.
+#     Wis                    Wisdom.
+#     Spl                    Spell.
+#     Con                    Concentration.
+#     Crt                    Creative.
+#   MaxBaseLevel             Maximum base level. (Default: MAX_LEVEL)
+#   BaseExp:                 Base experience per level.
+#     - Level                Base level.
+#       Exp                  Base experience.
+#   MaxJobLevel              Maximum job level. (Default: MAX_LEVEL)
+#   JobExp:                  Job experience per level.
+#     - Level                Job level.
+#       Exp                  Job experience.
+#   BaseHp:                  Base HP per base level.
+#     - Level                Base level.
+#       Hp                   Base HP.
+#   BaseSp:                  Base SP per base level.
+#     - Level                Base level.
+#       Sp                   Base SP.
+#   BaseAp:                  Base AP per base level.
+#     - Level                Base level.
+#       Ap                   Base AP.
+#   AlternateOutfits:        Alternate Jobs outfits. (Default: empty)
+###########################################################################
+
+Header:
+  Type: JOB_STATS
+  Version: 4
+
+Body:
+  - Jobs:
+      Novice: true
+      Super_Novice: true
+      Novice_High: true
+      Baby: true
+      Super_Baby: true
+      Super_Novice_E: true
+      Super_Baby_E: true
+      Hyper_Novice: true
+      Swordman: true
+      Swordman_High: true
+      Baby_Swordman: true    
+      Mage: true
+      Mage_High: true
+      Baby_Mage: true
+      Archer: true
+      Archer_High: true
+      Baby_Archer: true    
+      Merchant: true
+      Merchant_High: true
+      Baby_Merchant: true
+      Acolyte: true
+      Acolyte_High: true
+      Baby_Acolyte: true  
+      Thief: true
+      Thief_High: true
+      Baby_Thief: true      
+      Knight: true
+      Knight2: true
+      Lord_Knight: true
+      Lord_Knight2: true
+      Baby_Knight: true
+      Baby_Knight2: true
+      Priest: true
+      High_Priest: true
+      Baby_Priest: true
+      Wizard: true
+      High_Wizard: true
+      Baby_Wizard: true
+      Blacksmith: true
+      Whitesmith: true
+      Baby_Blacksmith: true
+      Hunter: true
+      Sniper: true
+      Baby_Hunter: true
+      Assassin: true
+      Assassin_Cross: true
+      Baby_Assassin: true
+      Crusader: true
+      Crusader2: true
+      Paladin: true
+      Paladin2: true
+      Baby_Crusader: true
+      Baby_Crusader2: true 
+      Monk: true
+      Champion: true
+      Baby_Monk: true
+      Sage: true
+      Professor: true
+      Baby_Sage: true
+      Rogue: true
+      Stalker: true
+      Baby_Rogue: true
+      Alchemist: true
+      Creator: true
+      Baby_Alchemist: true
+      Gunslinger: true
+      Baby_Gunslinger: true
+      Soul_Linker: true
+      Baby_Soul_Linker: true
+      Rune_Knight: true
+      Rune_Knight2: true
+      Rune_Knight_T: true
+      Rune_Knight_T2: true
+      Baby_Rune_Knight: true
+      Baby_Rune_Knight2: true
+      Dragon_Knight: true
+      Dragon_Knight2: true
+      Warlock: true
+      Warlock_T: true
+      Baby_Warlock: true
+      Arch_Mage: true
+      Ranger: true
+      Ranger2: true
+      Ranger_T: true
+      Ranger_T2: true
+      Baby_Ranger: true
+      Baby_Ranger2: true
+      Windhawk: true
+      Windhawk2: true
+      Mechanic: true
+      Mechanic2: true
+      Mechanic_T: true
+      Mechanic_T2: true
+      Baby_Mechanic: true
+      Baby_Mechanic2: true
+      Meister: true
+      Meister2: true
+      Guillotine_Cross: true
+      Guillotine_Cross_T: true
+      Baby_Guillotine_Cross: true
+      Shadow_Cross: true
+      Royal_Guard: true
+      Royal_Guard2: true
+      Royal_Guard_T: true
+      Royal_Guard_T2: true
+      Baby_Royal_Guard: true
+      Baby_Royal_Guard2: true
+      Imperial_Guard: true
+      Imperial_Guard2: true
+      Sorcerer: true
+      Sorcerer_T: true
+      Baby_Sorcerer: true
+      Elemental_Master: true
+      Dancer: true
+      Gypsy: true
+      Baby_Dancer: true
+      Bard: true
+      Clown: true
+      Baby_Bard: true
+      Ninja: true
+      Baby_Ninja: true
+      Taekwon: true
+      Baby_Taekwon: true
+      Star_Gladiator: true
+      Star_Gladiator2: true
+      Baby_Star_Gladiator: true
+      Baby_Star_Gladiator2: true
+      Arch_Bishop: true
+      Arch_Bishop_T: true
+      Baby_Arch_Bishop: true
+      Cardinal: true
+      Minstrel: true
+      Minstrel_T: true
+      Baby_Minstrel: true
+      Troubadour: true
+      Wanderer: true
+      Wanderer_T: true
+      Baby_Wanderer: true
+      Trouvere: true
+      Sura: true
+      Sura_T: true
+      Baby_Sura: true
+      Inquisitor: true 
+      Genetic: true
+      Genetic_T: true
+      Baby_Genetic: true
+      Biolo: true     
+      Shadow_Chaser: true
+      Shadow_Chaser_T: true
+      Baby_Shadow_Chaser: true
+      Abyss_Chaser: true
+      Kagerou: true
+      Oboro: true
+      Baby_Kagerou: true
+      Baby_Oboro: true
+      Shinkiro: true
+      Shiranui: true   
+      Rebellion: true
+      Baby_Rebellion: true
+      Night_Watch: true
+      Star_Emperor: true
+      Star_Emperor2: true
+      Baby_Star_Emperor: true
+      Baby_Star_Emperor2: true
+      Sky_Emperor: true
+      Sky_Emperor2: true
+      Soul_Reaper: true
+      Baby_Soul_Reaper: true
+      Soul_Ascetic: true
+    BaseASPD:
+      Fist: 55
+      Shield: 5
+      Dagger: 60
+      1hSword: 65
+      2hSword: 70
+      1hSpear: 65
+      2hSpear: 70
+      1hAxe: 65
+      2hAxe: 70
+      Mace: 70
+      2hMace: 75
+      Staff: 65
+      2hStaff: 70
+      Bow: 75
+      Katar: 55
+      Huuma: 110
+      Knuckle: 55
+      Book: 60
+      Musical: 45
+      Whip: 45
+      Revolver: 55
+      Rifle: 70
+      Gatling: 45
+      Shotgun: 90
+      Grenade: 100
+
+  - Jobs:
+      Summoner: true
+      Baby_Summoner: true
+      Spirit_Handler: true
+    BaseASPD:
+      Fist: 35
+      Staff: 60
+      Shield: 5

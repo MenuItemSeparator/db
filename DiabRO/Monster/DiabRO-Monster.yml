@@ -1,0 +1,272 @@
+
+Header:
+  Type: MOB_DB
+  Version: 5
+
+Body:
+# Lunatic
+  - Id: 1063
+    AegisName: LUNATIC
+    Name: Rabbit
+    Level: 3
+    Hp: 100
+    BaseExp: 100
+    JobExp: 50
+    Attack: 1
+    Attack2: 1
+    Defense: 18
+    Str: 20
+    Agi: 30
+    Vit: 1
+    Int: 1
+    Dex: 20
+    Luk: 1
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Neutral
+    ElementLevel: 1
+    WalkSpeed: 100
+    AttackDelay: 1456
+    AttackMotion: 456
+    ClientAttackMotion: 264
+    DamageMotion: 336
+    Ai: 01
+    Drops:
+      - Item: Clover
+        Rate: 500
+      - Item: Feather
+        Rate: 500
+      - Item: Pierrot_Nose
+        RandomOptionGroup: MISK_10
+        Rate: 200
+      - Item: Sword
+        Rate: 200
+        RandomOptionGroup: ATK_10
+      - Item: Knife
+        Rate: 200
+        RandomOptionGroup: ATK_10
+      - Item: Wing_Of_Fly
+        Rate: 5
+      - Item: Carrot
+        Rate: 500
+      - Item: Rainbow_Carrot
+        Rate: 10
+      - Item: Lunatic_Card
+        Rate: 10
+        StealProtected: true
+
+#Fabre
+  - Id: 1007
+    AegisName: FABRE
+    Name: Slime
+    Level: 6
+    Hp: 200
+    BaseExp: 100
+    JobExp: 50
+    Attack: 1
+    Attack2: 3
+    Defense: 24
+    Str: 20
+    Agi: 1
+    Vit: 20
+    Int: 5
+    Dex: 10
+    Luk: 20
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 400
+    AttackDelay: 1672
+    AttackMotion: 672
+    ClientAttackMotion: 192
+    DamageMotion: 480
+    Ai: 01
+    Modes:
+      Detector: false
+    Drops:
+      - Item: Guard
+        Rate: 200
+        RandomOptionGroup: ATK_10
+      - Item: Javelin
+        Rate: 200
+        RandomOptionGroup: ATK_10
+      - Item: Fluff
+        Rate: 500
+      - Item: Feather
+        Rate: 500
+      - Item: Wing_Of_Fly
+        Rate: 5
+      - Item: Green_Herb
+        Rate: 500
+      - Item: Clover
+        Rate: 500
+      - Item: Fabre_Card
+        Rate: 20
+        StealProtected: true
+
+#Pupa
+  - Id: 1008
+    AegisName: PUPA
+    Name: Pupa
+    Level: 4
+    Hp: 300
+    BaseExp: 200
+    JobExp: 100
+    Attack: 1
+    Attack2: 3
+    Defense: 400
+    MagicDefense: 10
+    Str: 20
+    Vit: 60
+    Int: 1
+    Dex: 1
+    Luk: 30
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 1000
+    AttackDelay: 1001
+    AttackMotion: 1
+    ClientAttackMotion: 768
+    DamageMotion: 1
+    Ai: 06
+    Modes:
+      Detector: false
+    Drops:
+      - Item: Phracon
+        Rate: 500
+      - Item: Chrysalis
+        Rate: 500
+      - Item: Sticky_Mucus
+        Rate: 500
+      - Item: Rod
+        Rate: 200
+        RandomOptionGroup: MATK_10
+      - Item: Boots
+        Rate: 200
+        RandomOptionGroup: MDEF_10
+      - Item: Shell
+        Rate: 500
+      - Item: Wing_Of_Fly
+        Rate: 5
+      - Item: Iron_Ore
+        Rate: 500
+      - Item: Pupa_Card
+        Rate: 10
+        StealProtected: true
+
+# Creamy        
+  - Id: 1018
+    AegisName: CREAMY
+    Name: Creamy
+    Level: 23
+    Hp: 247
+    BaseExp: 300
+    JobExp: 100
+    Attack: 16
+    Attack2: 1
+    Defense: 28
+    MagicDefense: 20
+    Str: 16
+    Int: 0
+    Luk: 20
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Wind
+    ElementLevel: 1
+    WalkSpeed: 150
+    AttackDelay: 1136
+    AttackMotion: 720
+    ClientAttackMotion: 432
+    DamageMotion: 840
+    Ai: 01
+    Modes:
+      Detector: false
+    Drops:
+      - Item: Powder_Of_Butterfly
+        Rate: 500
+      - Item: Silk_Robe_
+        Rate: 200
+        RandomOptionGroup: MDEF_10
+      - Item: Honey
+        Rate: 500
+      - Item: Wing_Of_Fly
+        Rate: 5
+      - Item: Fancy_Flower
+        Rate: 500
+      - Item: Flower
+        Rate: 500
+      - Item: Wind_Scroll_1_3
+        Rate: 500
+      - Item: Clip
+        Rate: 200
+        RandomOptionGroup: STAT_10
+      - Item: Creamy_Card
+        Rate: 10
+        StealProtected: true
+
+  - Id: 2836
+    AegisName: C3_FABRE
+    Name: Fabre Ringleader
+    Level: 6
+    Hp: 500
+    BaseExp: 500
+    JobExp: 1000
+    Attack: 1
+    Attack2: 3
+    Defense: 60
+    Str: 60
+    Agi: 20
+    Vit: 20
+    Int: 20
+    Dex: 20
+    Luk: 1
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 400
+    AttackDelay: 1672
+    AttackMotion: 672
+    ClientAttackMotion: 192
+    DamageMotion: 480
+    Ai: 01
+    Modes:
+      Detector: false
+    Drops:
+      - Item: Fluff
+        Rate: 500
+      - Item: Feather
+        Rate: 500
+      - Item: Club_
+        Rate: 200
+        RandomOptionGroup: MATK_10
+      - Item: Wing_Of_Fly
+        Rate: 5
+      - Item: Green_Herb
+        Rate: 500
+      - Item: Clover
+        Rate: 500
+      - Item: Club
+        Rate: 200
+        RandomOptionGroup: ATK_10
+      - Item: Fabre_Card
+        Rate: 100
+        StealProtected: true
